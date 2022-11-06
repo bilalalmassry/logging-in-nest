@@ -1,0 +1,11 @@
+db:
+  dialect: postgres
+  port: 5432
+  host: localhost
+  database: logging_data_base
+  username: muvi_main_service
+  password: postgres
+  autoLoadModels: true
+  sync: true
+  force: false
+  logging: true
